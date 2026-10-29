@@ -17,3 +17,5 @@ class Solution:
 
 
 print(Solution().lengthOfLongestSubstring("abcabcbb"))  # 3
+
+# high runtime.. edit for better runtime :)
