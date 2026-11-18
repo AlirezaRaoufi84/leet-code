@@ -16,4 +16,4 @@ def roman_to_int(x):
 
 
 s = "XIVM"
-roman_to_int(s)
+roman_to_int(s)  # 1014
