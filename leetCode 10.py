@@ -3,7 +3,6 @@ def isMatch(s, p):
     m, n = len(s), len(p)
     dp = [[False] * (n + 1) for _ in range(m + 1)]
 
-    # Empty string matches empty pattern
     dp[m][n] = True
 
     # Fill from bottom-right to top-left
